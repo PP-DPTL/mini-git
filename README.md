@@ -8,9 +8,9 @@
 
 ### Using mise in the project
 When mise has been successfully installed it is easy to use. for the setup use these commands:
-- mise trust (this trusts any configs that we have, just in case)
-- mise install (installs all tools and dependencies)
-- mise -- mvn --version (small test to ensure the installation worked succesfully, should just return a maven version)
+- **mise trust** (this trusts any configs that we have, just in case)
+- **mise install** (installs all tools and dependencies)
+- **mise -- mvn --version** (small test to ensure the installation worked succesfully, should just return a maven version)
 
 When those commands are done you can use mise in the project henceforth. Now you will most likely only use "mise run (placeholder)". to see all runnable tasks use **mise task ls**. 
 
