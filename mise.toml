@@ -1,0 +1,11 @@
+[tools]
+java = "temurin-21"
+maven = "3.9.11"
+
+[tasks.test]
+description = "Run the mini Git tests"
+run = "mvn test"
+
+[tasks.build]
+description = "Compile, test, and package the project"
+run = "mvn package"
