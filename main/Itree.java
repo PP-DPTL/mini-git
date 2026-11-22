@@ -1,6 +1,5 @@
 
 import java.util.List;
-import GitObject.GitObject;
 
 interface ITree {
     public String getName();
